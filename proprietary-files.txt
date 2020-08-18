@@ -403,7 +403,7 @@ vendor/lib64/libhdr_tm.so|0744584d9e30a921898695c89e96293901437c08
 vendor/lib/libsdm-color.so|325c5b6cff3cf3d7d5d8e479a1c37f7255cbf748
 vendor/lib/libsdm-diag.so|fa211dd848a93242e84d1b7fdc5fcf6cb9c25c2f
 vendor/lib/libsdmextension.so|342a6ecc85a93309c86c01466a612cfbe49c69f5
-vendor/lib/libqseed3.so|344d2ce1fe3670f4b0a832a85bd725c4bdb14329
+vendor/lib/libqseed3.so|44f99b99b831227491e320a3098c8defe8df0781
 -vendor/lib/libsdm-disp-vndapis.so|a982cb75f67f688353bc39e8d77cb2e9879e3bbb
 vendor/lib/libtinyxml2_1.so|89e1b1af10209dbb8d341cd314750cc64fc33852
 vendor/lib64/libqseed3.so|6779aaf96283e244122f4cc76cd3cb750ff14ed5
@@ -743,23 +743,23 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so|45fd8c212f51977663082b496755911c986
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|1673fd7b807dcc317cc73c82c2773d5bbb0302df
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|780288d1d8d79fa16fbbe9bce6edaa4e1424cdb1
 
-# Sensors - from LA.UM.8.2.r1-06700-sdm660.0
-product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|bda110fc8102be6f88bd0e364819d15d9c0c3744
-product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|67620ca191213b83e898ee401807eb8385b0020d
-vendor/bin/sensors.qti|c11eb7939bdcf47b51199f4a2c247486d5bbcd89
-vendor/lib/hw/activity_recognition.sdm660.so|47c588e1bdb357f31721171dc1d6a781c743bd64
-vendor/lib/libsensor1.so|b1b0dcb45432e51fabffe595010f35a017c7a3fd
-vendor/lib/libsensor_reg.so|170c40b9b7d48c922cd3ca1a552a34311ee79799
-vendor/lib/sensor_calibrate.so|9f81f1bf43b7871555915c9d57bba16d0419af40
-vendor/lib/sensors.ssc.so|2127a224529656d54b15177129ca6783784ccb24
-vendor/lib64/hw/activity_recognition.sdm660.so|d7dac1daafb812625094f5e85097c00fdc385da1
-vendor/lib64/libsensor1.so|dac9d5fb1b5aacfa5bedf812ebdd04eadd0af2dc
-vendor/lib64/libsensor_reg.so|be00c924983a2a279f799332cf2b262da9af78d1
-vendor/lib64/sensor_calibrate.so|dacb7a77e1713a756a43c082329e9f42e2c0d40e
-vendor/lib64/sensors.ssc.so|b53f9d8a5580feb9ca8f9e4efd080f76dc1d1588
+# Sensors - from jasmine_sprout/10-QKQ1.190910.002-V11.0.11.0.QDIMIXM 
+product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|f9fc5478ea958cbf6c0eb3ecb60bde45b09ca0ed
+product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|45fa1c6d3e292d1ca8c2d43f007654c30537debb
+vendor/bin/sensors.qti|1613aa4572fbc6040e57c7ed0932529ea0247f49
+vendor/lib/hw/activity_recognition.sdm660.so|016875ad5a1363a8ec017b286e2fa5372e05e279
+vendor/lib/libsensor1.so|daca84391e79453c601b135619f4db6eebd4f7cf
+vendor/lib/libsensor_reg.so|ac3a6b735084d308e6f2a07f514339c27c65b11f
+vendor/lib/sensor_calibrate.so|577e491cc10a7ceeda9826fe213c8a0a5e2033d8
+vendor/lib/sensors.ssc.so|69970f125d076dac8711c1d1687f7faeb7a75bed
+vendor/lib64/hw/activity_recognition.sdm660.so|9550e75529ef4ac6205c27784eaf54219110023f
+vendor/lib64/libsensor1.so|596362883f49d2e911c8cc2d54f90b2b56d35b18
+vendor/lib64/libsensor_reg.so|a8753d3f0e9383d46334f0022166eece70854e5c
+vendor/lib64/sensor_calibrate.so|1f832d04e04c11294d1c96c074c3a2a551d4f095
+vendor/lib64/sensors.ssc.so|0ec630386e5f51dfe77acd0fc7886f01dcfc2c86
 
 # Soter - from LA.UM.8.2.r1-06200-sdm660.0
--app/SoterService/SoterService.apk|897999e257f5e59ebe2f9ca08a4f5512602f6c5e
+-app/SoterService/SoterService.apk|482523fabe02255e7ab6f80fbaaabe32c8fb3be9
 
 # Soter - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|37f9501fa45a69ba3a27fd338704d76afc534bcb
@@ -776,13 +776,13 @@ vendor/lib/libsubsystem_control.so|fe08da9f6a0e73a97231055c4ca8279a68432476
 vendor/lib64/libSubSystemShutdown.so|c934b2df57be86fdfb9bdf2046f9289af5e7a62c
 vendor/lib64/libsubsystem_control.so|b2e8c7eb9d999137ae99ea38f85d7dac59c6dcc2
 
-# Thermal - from wayne Miui 9.7.4
-vendor/bin/thermal-engine|0be3686204fc600f8dd8607fff10cd7fd273186e
+# Thermal - from jasmine_sprout/10-QKQ1.190910.002-V11.0.11.0.QDIMIXM
+vendor/bin/thermal-engine|459c3fb5ab99ac95cff15387358c1d0e239a5735
 vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
 vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
-vendor/lib64/libthermalioctl.so|7c7a784d8ead3d932d164cfc953b09e621060d90
--vendor/lib/libthermalclient.so|d5c6c82b15423e95e991d757bab1b4a27fb88848
--vendor/lib64/libthermalclient.so|3412ce67da6a58d7f44a65e6b8af8cc5bfb9f506
+vendor/lib64/libthermalioctl.so|2f0ee866e9059b1df9ca7b63815591354e7c77d8
+-vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
+-vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
 
 # Time services - from LA.UM.8.2.r1-06700-sdm660.0
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|c935b678fdaed033513f044f6492361c3370f9f0
