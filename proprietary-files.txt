@@ -776,8 +776,14 @@ vendor/lib/libsubsystem_control.so|fe08da9f6a0e73a97231055c4ca8279a68432476
 vendor/lib64/libSubSystemShutdown.so|c934b2df57be86fdfb9bdf2046f9289af5e7a62c
 vendor/lib64/libsubsystem_control.so|b2e8c7eb9d999137ae99ea38f85d7dac59c6dcc2
 
-# Thermal - from jasmine_sprout/10-QKQ1.190910.002-V11.0.11.0.QDIMIXM
+# Thermal - from jasmine_sprout/10-QKQ1.190910.002-V11.0.12.0.QDIMIXM
 vendor/bin/thermal-engine|459c3fb5ab99ac95cff15387358c1d0e239a5735
+vendor/bin/hw/android.hardware.thermal@1.0-service|9f4aea97e96a8e5182633607630cddd4051c3d8a
+vendor/etc/init/android.hardware.thermal@1.0-service.rc|83a76be56b9b0843ff3f2c06186c63156a459acb
+vendor/lib/hw/android.hardware.thermal@1.0-impl.so|3d7fe8e1517af3f9cc2e17a9df77e8e5ad6c22e0
+vendor/lib/hw/thermal.sdm660.so|8e2074c9314000ad0b3b377a5693d2949f3902ea
+vendor/lib64/hw/android.hardware.thermal@1.0-impl.so|05d7b6e4419ba068c0055221e0cec1937f0281d2
+vendor/lib64/hw/thermal.sdm660.so|fc04a4a60c1d047e8c3d483c77858c69d47d47c7
 vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
 vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
 vendor/lib64/libthermalioctl.so|2f0ee866e9059b1df9ca7b63815591354e7c77d8
