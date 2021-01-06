@@ -162,7 +162,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1 \
     persist.hwc.enable_vds=1 \
     ro.opengles.version=196610 \
-    ro.qualcomm.cabl=0 \
     ro.sf.blurs_are_expensive=1 \
     ro.surface_flinger.supports_background_blur=1 \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
