@@ -64,7 +64,7 @@
         android:title="@string/cat_calibration">
 
         <org.lineageos.settings.device.preferences.SecureSettingCustomSeekBarPreference
-            android:defaultValue="35"
+            android:defaultValue="33"
             android:dependency="kcal_enabled"
             android:key="saturation"
             android:max="158"

@@ -30,11 +30,11 @@ public interface Utils {
     String PREF_GRAYSCALE = "grayscale";
 
     boolean SETONBOOT_DEFAULT = false;
-    int MINIMUM_DEFAULT = 35;
+    int MINIMUM_DEFAULT = 33;
     int RED_DEFAULT = 255;
     int GREEN_DEFAULT = 255;
     int BLUE_DEFAULT = 255;
-    int SATURATION_DEFAULT = 35;
+    int SATURATION_DEFAULT = 33;
     int SATURATION_OFFSET = 225;
     int VALUE_DEFAULT = 127;
     int VALUE_OFFSET = 128;
