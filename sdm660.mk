@@ -600,3 +600,7 @@ PRODUCT_BOOT_JARS += \
 # DeviceSettings
 PRODUCT_PACKAGES += \
    DeviceSettings
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
