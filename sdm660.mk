@@ -105,9 +105,9 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     tinymix.vendor
 
-# ViPER4AndroidFX
+# MusicFX
 PRODUCT_PACKAGES += \
-    ViPER4AndroidFX
+    MusicFX
 
 # Audio Configs
 PRODUCT_COPY_FILES += \
