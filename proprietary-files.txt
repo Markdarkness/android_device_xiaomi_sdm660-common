@@ -796,6 +796,8 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so|45fd8c212f51977663082b496755911c986
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|eb38f01f306bd6b04bae1df3fe410da36cf34871
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|780288d1d8d79fa16fbbe9bce6edaa4e1424cdb1
 vendor/lib64/vendor.qti.ims.factory@1.0.so|6e58e9b7756ef5ccf881f4024f978277b6dea2c4
+vendor/lib/com.qualcomm.qti.uceservice@2.2.so|440760929f6178edf63d63d7627d38b4c6c3ef48
+vendor/lib64/com.qualcomm.qti.uceservice@2.2.so|0fe19e08b9897bc25bc2a383753f87aa5f267190
 
 # Sensors - from LA.UM.8.2.r1-07400-sdm660.0
 product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|92142d25b6eaf6976e17e726ab70536534648459
@@ -830,8 +832,8 @@ vendor/lib64/libsubsystem_control.so|b2e8c7eb9d999137ae99ea38f85d7dac59c6dcc2
 
 # Thermal - from jasmine-user-10-QKQ1.190910.002-V11.0.19.0.QDIMIXM
 vendor/bin/thermal-engine|459c3fb5ab99ac95cff15387358c1d0e239a5735
-vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
-vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
+vendor/lib/libthermalfeature.so|b2a90496eb99301cc0f065fe97782358858668a3
+vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 vendor/lib64/libthermalioctl.so|2f0ee866e9059b1df9ca7b63815591354e7c77d8
 vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
 vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
