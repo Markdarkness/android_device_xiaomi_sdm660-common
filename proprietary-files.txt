@@ -45,27 +45,27 @@ vendor/lib/rfsa/adsp/libvpp_svc_skel.so|2da97f61c1d14f1f9a38aecd8ab89a1f6fa8d991
 vendor/lib/rfsa/adsp/dirac_resource.dar|7728d5b2ee2927a01df5bd6d7edae3736186c844
 vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
 
-# Audio - from LA.UM.8.2.r1-07400-sdm660.0
+# Audio - from jasmine-user-10-QKQ1.190910.002-V11.0.20.0.QDIMIXM
 etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
 framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
-vendor/lib/libacdb-fts.so|a2f09f2a01c326d6b57b1c0e406c92850ceef439
-vendor/lib/libacdbloader.so|3c294e9ed4ab4640830197f33028b342f9351a0f
-vendor/lib/libacdbrtac.so|98a8a9cf331cc10c755c808da3bf4da5d4de0c2a
-vendor/lib/libadiertac.so|9d6c62200d81e28ccd78aef6ce8e223655f102b6
-vendor/lib/libadm.so|2a275948330d0b50cbbaee644d81ffa6cfb54590
-vendor/lib/libaudcal.so|2c7b95a1c0e43f1c7d8d679f472343776f7bf718
-vendor/lib/libaudioalsa.so|1d8eb7dae06b1cca0cd360a5996bb59a9bd8ba25
-vendor/lib/libaudioparsers.so|d898e3d2cc8177e916052527135258c8d9fc7e89
-vendor/lib/libdrc.so|aa8e8dd2a27803bf8ac36619036e1dc736be540b
-vendor/lib/libqtigef.so|10b64bf536b4edb6c09d047c218cfe4c9a9255f1
-vendor/lib64/libacdb-fts.so|fe3610a7cce613592e90245ce98a23be1763545c
-vendor/lib64/libacdbloader.so|1ca9195a3f00064f3addaf2e9443609d07fd8940
-vendor/lib64/libacdbrtac.so|51d6d796b8d0815b8a7670dfbcd449dd3bb51506
-vendor/lib64/libadiertac.so|8f77a71f76ef3a88d06955c4d6d4d915d62c4c94
-vendor/lib64/libaudcal.so|80ee15046e7a7249a0c9def9bf3f3d94efd3ce6a
-vendor/lib64/libaudioalsa.so|bdf49c709df8a1a7a7e232a6cb1ba6d15af594c7
-vendor/lib64/libaudioparsers.so|ad9394501d467fd264675ead74a4e6bab34eadd5
-vendor/lib64/libqtigef.so|1b7fa4dacefd97f019c342477ff57dc861e70277
+vendor/lib/libacdb-fts.so|7e542fe676bdeaf0347dada88683a67cb861d96d
+vendor/lib/libacdbloader.so|ce2494e403e79552793d65f344ce9f79b52ba51a
+vendor/lib/libacdbrtac.so|bacaa968f7da0ed014e6594b928823f0d08a06e6
+vendor/lib/libadiertac.so|ebdd9b6c4e64b38ef39401b1a1e03696583440dc
+vendor/lib/libadm.so|d7c7d22c4fe53312e1e49fbffd587b25fdf0ac89
+vendor/lib/libaudcal.so|f935b8c33972b8cee40f760478f1b64a54705683
+vendor/lib/libaudioalsa.so|272cd6a93bca7edbe3cf4323ca1612737f4f9cde
+vendor/lib/libaudioparsers.so|485bbd30e2ea7e40d7fbcb3d7aa1f8a222cd2fc4
+vendor/lib/libdrc.so|854e12157d5f09831b81fcf7a4cecf0f491d660a
+vendor/lib/libqtigef.so|e0c548247e923f1e972e7765a678566dd874afb7
+vendor/lib64/libacdb-fts.so|7efa5d9ec593efd8a449e3cfa43b29d33e3c312a
+vendor/lib64/libacdbloader.so|8cb6cd08907651bf00a73aa5bb5c7d1be4800bfc
+vendor/lib64/libacdbrtac.so|63b112f2a348324dcd27ec8963eb027cddef2fca
+vendor/lib64/libadiertac.so|cb848022d7ba1667a45d120cf6fd7a4fbd270bb7
+vendor/lib64/libaudcal.so|2009240b9036f57c408c8905d91b63eec52939d2
+vendor/lib64/libaudioalsa.so|a743be854f0af2ae8f60d6c598f078a4c09f8b41
+vendor/lib64/libaudioparsers.so|ab849844b97f005231b1b3150e61cd4b67cbdb11
+vendor/lib64/libqtigef.so|14823ccfd03373f7f4ab1bd3705539aa1e2b7ade
 
 # Alarm - from LA.UM.8.2.r1-07400-sdm660.0
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|c214e1f7de878aeebe642857d6283bbeca0c7a3e
@@ -82,16 +82,16 @@ product/lib64/com.qualcomm.qti.ant@1.0.so:system_ext/lib64/com.qualcomm.qti.ant@
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|9dc1bc2f1d726d71af31cc8c955aba122bbcdb1e
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|203528c568c1c5ce33b35dcb9ee9eb7ecb1de206
 
-# Audio FX modules - from LA.UM.8.2.r1-07400-sdm660.0
+# Audio FX modules - from jasmine-user-10-QKQ1.190910.002-V11.0.19.0.QDIMIXM
 vendor/lib/soundfx/libmisoundfx.so|569ee2df586e95116b79cfb3d89429f2032a7a76
-vendor/lib/soundfx/libasphere.so|eaa35262337a8401aaecf02997e98e24083f064c
-vendor/lib/soundfx/libqcbassboost.so|bbcfdd572b1dff24101bbf9176af379b10163da8
-vendor/lib/soundfx/libqcreverb.so|c1bd1bc5c69ba3d2d04a21f31b94fc5fc97dcc13
-vendor/lib/soundfx/libqcvirt.so|440e015eebdac2fae830e7bb318d5c80d1a13cdb
-vendor/lib64/soundfx/libasphere.so|27154ce2eed6902f36ed8c85324cf61c96c8af02
-vendor/lib64/soundfx/libqcbassboost.so|3e058d2e97617f9b91cfbd866671944526fae057
-vendor/lib64/soundfx/libqcreverb.so|10688b66f0cac17cd4e17550b1e744b0e8f10fb8
-vendor/lib64/soundfx/libqcvirt.so|fb2677be6f3f434f5569dfca3a7c6934c881c4e4
+vendor/lib/soundfx/libasphere.so|b1b26f99d9fbfe75f109349de5505ca39ccd4c8c
+vendor/lib/soundfx/libqcbassboost.so|73339450a42b598a3c13e67b3d4a2266d986fea2
+vendor/lib/soundfx/libqcreverb.so|eb437cd5e264b1adb4546c6a5617c5da17be5839
+vendor/lib/soundfx/libqcvirt.so|ee9eaa81bb24ac0379e06b44ef257967a4d32614
+vendor/lib64/soundfx/libasphere.so|bd48aa3d7cf27bf3b12ce29f429b719383e104fc
+vendor/lib64/soundfx/libqcbassboost.so|8d14a19bff32a4d5f19b998076e7b6ee46787cdc
+vendor/lib64/soundfx/libqcreverb.so|f0b4ffbd5ad1c3031b2cf1cea96521bc87ce2d23
+vendor/lib64/soundfx/libqcvirt.so|09f90491a8ec67db467579a5dd6ef6a8b83723d6
 
 # Bluetooth (aptX) - from jasmine-user-10-QKQ1.190910.002-V11.0.4.0.QDIMIXM
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
@@ -270,8 +270,8 @@ vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|57707e6f61b289e43a503cdef1db221c766d3f57
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|b2d1f88ccd334631ea2002a5b6b5c8557201278f
 
-# DRM (Widevine) - from jasmine-user-10-QKQ1.190910.002-V11.0.19.0.QDIMIXM
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.2-service.widevine.xml|dc8a52744f09f7175903260ec8f7ea2364237509
+# DRM (Widevine) - from jasmine-user-10-QKQ1.190910.002-V11.0.20.0.QDIMIXM
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.2-service.widevine.xml|e9c33ec4ff776ab02ddf49ec375184d2a8b19177
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
 vendor/lib/mediadrm/libwvdrmengine.so|a8bdbbfb3aa222095f1cb7658ec5c46fa41dd560
@@ -468,10 +468,10 @@ vendor/lib64/hw/vulkan.sdm660.so|0b282ec0dc482134fd0ba168cd367a8a008ceb5f
 # IRQ balance - from LA.UM.8.2.r1-07400-sdm660.0
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
 
-# Keymaster - from LA.UM.8.2.r1-07400-sdm660.0
-vendor/lib64/libkeymasterdeviceutils.so|ea44915adfee57f1bd813b2184987565d396ab82
-vendor/lib64/libkeymasterprovision.so|25505bda86672a5ae31f75b8f8af0a3560ef648f
-vendor/lib64/libkeymasterutils.so|2791994395cd10eb1092b8bd8fea15987e17421d
+# Keymaster - from jasmine-user-10-QKQ1.190910.002-V11.0.19.0.QDIMIXM
+vendor/lib64/libkeymasterdeviceutils.so|763a02841eb133e698180e0cacf309450a4ce0e0
+vendor/lib64/libkeymasterprovision.so|f7e215595c2f7e62a6575b23a109b6b18556fc3b
+vendor/lib64/libkeymasterutils.so|679491d7b415f45469990380e4fd61e4bfbc445e
 
 # Listen - from LA.UM.8.2.r1-07400-sdm660.0
 vendor/lib/hw/sound_trigger.primary.sdm660.so|336e4af06f2ddd74bf318bae8ce21388c7f90ac6
@@ -799,18 +799,18 @@ vendor/lib64/vendor.qti.ims.factory@1.0.so|6e58e9b7756ef5ccf881f4024f978277b6dea
 vendor/lib/com.qualcomm.qti.uceservice@2.2.so|440760929f6178edf63d63d7627d38b4c6c3ef48
 vendor/lib64/com.qualcomm.qti.uceservice@2.2.so|0fe19e08b9897bc25bc2a383753f87aa5f267190
 
-# Sensors - from LA.UM.8.2.r1-07400-sdm660.0
-product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|92142d25b6eaf6976e17e726ab70536534648459
-product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|a6486bb8506902bbe2a4b743000e3e91ab93246a
-vendor/bin/sensors.qti|2a5cee424e08848156865ea2291520cf7b4e6393
-vendor/lib/hw/activity_recognition.sdm660.so|47c588e1bdb357f31721171dc1d6a781c743bd64
-vendor/lib/libsensor1.so|b1b0dcb45432e51fabffe595010f35a017c7a3fd
-vendor/lib/libsensor_reg.so|170c40b9b7d48c922cd3ca1a552a34311ee79799
-vendor/lib/sensor_calibrate.so|9f81f1bf43b7871555915c9d57bba16d0419af40
-vendor/lib64/hw/activity_recognition.sdm660.so|d7dac1daafb812625094f5e85097c00fdc385da1
-vendor/lib64/libsensor1.so|dac9d5fb1b5aacfa5bedf812ebdd04eadd0af2dc
-vendor/lib64/libsensor_reg.so|be00c924983a2a279f799332cf2b262da9af78d1
-vendor/lib64/sensor_calibrate.so|dacb7a77e1713a756a43c082329e9f42e2c0d40e
+# Sensors - from jasmine-user-10-QKQ1.190910.002-V11.0.20.0.QDIMIXM
+product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|f9fc5478ea958cbf6c0eb3ecb60bde45b09ca0ed
+product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|45fa1c6d3e292d1ca8c2d43f007654c30537debb
+vendor/bin/sensors.qti|1613aa4572fbc6040e57c7ed0932529ea0247f49
+vendor/lib/hw/activity_recognition.sdm660.so|016875ad5a1363a8ec017b286e2fa5372e05e279
+vendor/lib/libsensor1.so|daca84391e79453c601b135619f4db6eebd4f7cf
+vendor/lib/libsensor_reg.so|ac3a6b735084d308e6f2a07f514339c27c65b11f
+vendor/lib/sensor_calibrate.so|577e491cc10a7ceeda9826fe213c8a0a5e2033d8
+vendor/lib64/hw/activity_recognition.sdm660.so|9550e75529ef4ac6205c27784eaf54219110023f
+vendor/lib64/libsensor1.so|596362883f49d2e911c8cc2d54f90b2b56d35b18
+vendor/lib64/libsensor_reg.so|a8753d3f0e9383d46334f0022166eece70854e5c
+vendor/lib64/sensor_calibrate.so|1f832d04e04c11294d1c96c074c3a2a551d4f095
 
 # Soter - from LA.UM.8.2.r1-06200-sdm660.0
 -app/SoterService/SoterService.apk|482523fabe02255e7ab6f80fbaaabe32c8fb3be9
@@ -911,13 +911,13 @@ vendor/lib64/libmmosal_proprietary.so|82cd85bc45fde0eed23b5f2168214dd879e0f52a
 vendor/lib64/libwfdhdcpcp.so|1a3384745b7ec87cda5ff58a43872b1374f6fc9b
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so|7ca31bd88bffc97e5d8a2b8a1b3706231b73befe
 
-# Common Camera - from Pie
+# Common Camera - jasmine-user-10-QKQ1.190910.002-V11.0.20.0.QDIMIXM
 vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
 vendor/lib/libllvd_smore.so|740de4c339772df80858ddd9390f91ead71eadeb
 vendor/lib/libmmcamera_chromaflash_lib.so|2ac15c08e7916b039b9d053a2d5c6846ed28ae41
 vendor/lib/libmmcamera_llvd.so|6fca05767e27b9a5f0050fc9296069c09e9f5dba
 vendor/lib/libmmcamera_optizoom_lib.so|0d54dcba2f86236b66384aa83861693451ee0451
-vendor/lib/libmmcamera_stillmore_lib.so|d313da5abb76da8a4328d18e13aaa3f042f63e47
+vendor/lib/libmmcamera_stillmore_lib.so|72ddda5608ee9f2d14f3e7321c992c3aa3dbdcf7
 vendor/lib/libmmcamera_trueportrait_lib.so|41f491298caf7ddd2fd19b9f71906fd9f2a826ff
 vendor/lib/libmmcamera_ubifocus_lib.so|204680decba87b04a2eb5ad4746e69f8e0c413bc
 vendor/lib/liboptizoom.so|1e92993743636c045438f1f15c07c1e835d9ca46
