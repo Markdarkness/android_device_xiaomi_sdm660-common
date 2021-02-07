@@ -317,11 +317,9 @@ vendor/bin/slim_daemon|7df683763f5933f439d33b0d0bff590628f4eaf9
 vendor/bin/xtra-daemon|a3b63345bcff2c0be89904a3ad06d7bc72f210f1
 vendor/bin/xtwifi-client|a7649ab755c29242fc16161f5c2c84d4b59cf27b
 vendor/bin/xtwifi-inet-agent|f805841e5c8ca3b0af620486a64a37148daa0980
-vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/izat.conf|5ffb094261e68246149dac5c6f564e0c3d783ad9
 vendor/etc/lowi.conf|9fec1ddb85eae8c2a9ead318473424b286fe6a26
 vendor/etc/sap.conf|afbcbacb367b2fcc05efcad76ef096d794e768ba
-vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/lib/hw/vendor.qti.gnss@4.0-impl.so|e6a13603c7889f52742575b49ecaea9351aaa9da
 vendor/lib/libasn1cper.so|9dccb9d9feac039253627684359cb0ab650db259
