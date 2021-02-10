@@ -63,7 +63,6 @@ public:
 
 private:
     virtual ~MeasurementAPIClient();
-
     std::mutex mMutex;
     sp<V1_0::IGnssMeasurementCallback> mGnssMeasurementCbIface;
 

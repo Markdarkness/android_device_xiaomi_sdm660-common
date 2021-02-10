@@ -61,7 +61,6 @@ public:
 
 private:
     ~BatchingAPIClient();
-
     sp<V1_0::IGnssBatchingCallback> mGnssBatchingCbIface;
     uint32_t mDefaultId;
     LocationCapabilitiesMask mLocationCapabilitiesMask;
