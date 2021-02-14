@@ -265,6 +265,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qcomsysd.enabled=1 \
     ro.vendor.extension_library=libqti-perfd-client.so
 
+#OpenGL
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    debug.hwui.renderer=opengl
+
 # QTI
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.va_aosp.support=1
