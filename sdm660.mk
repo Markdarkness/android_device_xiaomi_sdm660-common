@@ -40,7 +40,6 @@ endif
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
-$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
 # Common Tree Path
 COMMON_PATH := device/xiaomi/sdm660-common
@@ -129,7 +128,7 @@ PRODUCT_PACKAGES += \
     AntHalService \
     libantradio \
     antradio_app
-    
+
 # AuthSecret
 PRODUCT_PACKAGES += \
     android.hardware.authsecret@1.0-service
@@ -149,9 +148,6 @@ PRODUCT_PACKAGES += \
     libldacBT_dec \
     libsndmonitor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
-
-# Boot animation
-TARGET_BOOTANIMATION_SIZE := 1080p
 
 # Broadcastradio
 PRODUCT_PACKAGES += \
@@ -205,9 +201,6 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     vendor.display.config@1.9 \
     vendor.display.config@1.9_vendor
-    
-# Density
-TARGET_SCREEN_DENSITY := 400
 
 # DeviceDoze
 PRODUCT_PACKAGES += \
@@ -353,19 +346,6 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
-
-# Media Extensions
-PRODUCT_PACKAGES += \
-    libavmediaserviceextensions \
-    libmediametrics \
-    libregistermsext \
-    mediametrics
-
-# Netutils
-PRODUCT_PACKAGES += \
-    android.system.net.netd@1.0 \
-    libandroid_net \
-    netutils-wrapper-1.0
 
 # OMX
 PRODUCT_PACKAGES += \
