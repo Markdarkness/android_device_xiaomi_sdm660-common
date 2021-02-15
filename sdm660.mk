@@ -40,7 +40,6 @@ endif
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
-$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
 # Common Tree Path
 COMMON_PATH := device/xiaomi/sdm660-common
@@ -157,9 +156,6 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
-# Boot animation
-TARGET_BOOTANIMATION_SIZE := 1080p
-
 # Broadcastradio
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
@@ -212,9 +208,6 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     vendor.display.config@1.9 \
     vendor.display.config@1.9_vendor
-    
-# Density
-TARGET_SCREEN_DENSITY := 400
 
 # DeviceDoze
 PRODUCT_PACKAGES += \
@@ -363,16 +356,7 @@ PRODUCT_COPY_FILES += \
 
 # Media Extensions
 PRODUCT_PACKAGES += \
-    libavmediaserviceextensions \
-    libmediametrics \
-    libregistermsext \
-    mediametrics
-
-# Netutils
-PRODUCT_PACKAGES += \
-    android.system.net.netd@1.0 \
-    libandroid_net \
-    netutils-wrapper-1.0
+    libavmediaserviceextensions
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -406,7 +390,7 @@ else
     PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/power-libperfmgr/sdm660_powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 endif
-    
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
