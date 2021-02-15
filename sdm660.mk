@@ -105,10 +105,6 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     tinymix.vendor
 
-# MusicFX
-PRODUCT_PACKAGES += \
-    MusicFX
-
 # Audio Configs
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
