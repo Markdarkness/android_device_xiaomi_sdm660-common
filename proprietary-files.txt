@@ -742,18 +742,18 @@ vendor/lib64/vendor.qti.ims.factory@1.0.so|6e58e9b7756ef5ccf881f4024f978277b6dea
 vendor/lib/com.qualcomm.qti.uceservice@2.2.so|440760929f6178edf63d63d7627d38b4c6c3ef48
 vendor/lib64/com.qualcomm.qti.uceservice@2.2.so|0fe19e08b9897bc25bc2a383753f87aa5f267190
 
-# Sensors - from jasmine-user-10-QKQ1.190910.002-V11.0.20.0.QDIMIXM
-product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|f9fc5478ea958cbf6c0eb3ecb60bde45b09ca0ed
-product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|45fa1c6d3e292d1ca8c2d43f007654c30537debb
-vendor/bin/sensors.qti|1613aa4572fbc6040e57c7ed0932529ea0247f49
-vendor/lib/hw/activity_recognition.sdm660.so|016875ad5a1363a8ec017b286e2fa5372e05e279
-vendor/lib/libsensor1.so|daca84391e79453c601b135619f4db6eebd4f7cf
-vendor/lib/libsensor_reg.so|ac3a6b735084d308e6f2a07f514339c27c65b11f
-vendor/lib/sensor_calibrate.so|577e491cc10a7ceeda9826fe213c8a0a5e2033d8
-vendor/lib64/hw/activity_recognition.sdm660.so|9550e75529ef4ac6205c27784eaf54219110023f
-vendor/lib64/libsensor1.so|596362883f49d2e911c8cc2d54f90b2b56d35b18
-vendor/lib64/libsensor_reg.so|a8753d3f0e9383d46334f0022166eece70854e5c
-vendor/lib64/sensor_calibrate.so|1f832d04e04c11294d1c96c074c3a2a551d4f095
+# Sensors - from LA.UM.8.2.r1-07400-sdm660.0
+product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|92142d25b6eaf6976e17e726ab70536534648459
+product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|a6486bb8506902bbe2a4b743000e3e91ab93246a
+vendor/bin/sensors.qti|2a5cee424e08848156865ea2291520cf7b4e6393
+vendor/lib/hw/activity_recognition.sdm660.so|47c588e1bdb357f31721171dc1d6a781c743bd64
+vendor/lib/libsensor1.so|b1b0dcb45432e51fabffe595010f35a017c7a3fd
+vendor/lib/libsensor_reg.so|170c40b9b7d48c922cd3ca1a552a34311ee79799
+vendor/lib/sensor_calibrate.so|9f81f1bf43b7871555915c9d57bba16d0419af40
+vendor/lib64/hw/activity_recognition.sdm660.so|d7dac1daafb812625094f5e85097c00fdc385da1
+vendor/lib64/libsensor1.so|dac9d5fb1b5aacfa5bedf812ebdd04eadd0af2dc
+vendor/lib64/libsensor_reg.so|be00c924983a2a279f799332cf2b262da9af78d1
+vendor/lib64/sensor_calibrate.so|dacb7a77e1713a756a43c082329e9f42e2c0d40e
 
 # Soter - from LA.UM.8.2.r1-06200-sdm660.0
 -app/SoterService/SoterService.apk|482523fabe02255e7ab6f80fbaaabe32c8fb3be9
