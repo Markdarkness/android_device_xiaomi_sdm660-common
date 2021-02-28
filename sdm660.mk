@@ -105,8 +105,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libvolumelistener \
-    tinymix.vendor
+    libvolumelistener
 
 # MusicFX
 PRODUCT_PACKAGES += \
