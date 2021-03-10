@@ -666,7 +666,7 @@ system_ext/framework/qti-telephony-common.jar|6ef78677c097072dbf44eb8fcc93839105
 -product/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar|a01874e994d2674d538f86de39e9ccbf6ef3fc8c
 -product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar|f2a2e5554ad6ae1363a9aa76c6d0e6732bbdc7fb
 -product/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar:system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar|1c44a0a14003d8c81f425317a11353733c9ca243
-etc/permissions/com.qualcomm.qti.imscmservice.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
+etc/permissions/com.qualcomm.qti.imscmservice.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml|5f888584ff67fda2e1717796ac92535ab52dfeb2
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|e395f4c5dbfadd272c48b985a4e0b7f7c38919ac
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|6d3b5d0991f917b5e2b3c65f644c3a48067c267d
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|5a9086eb54f6f1ab1d200dfffe1741bd9fb692fc
@@ -798,8 +798,8 @@ vendor/lib64/hw/thermal.sdm660.so|fc04a4a60c1d047e8c3d483c77858c69d47d47c7
 vendor/bin/time_daemon|a213fb73b9b1cbbdb631851a337ffd64ae08367e
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 
-# Wi-Fi - from LA.UM.8.2.r1-07400-sdm660.0
-vendor/bin/cnss-daemon|a9e67f6e242148ff773e5c16034fb83ec27287af
+# WiFi - from LA.UM.9.6.2.r1-03600-89xx.0
+vendor/bin/cnss-daemon|a904f7cf86d6c72f5ad0c37516d419c39e2e2464
 
 # WFD - from LA.UM.9.6.2.r1-03600-89xx.0
 -framework/WfdCommon.jar|0faa0fdf415b1ecdc92dfe6a52946a3248b7b02b
