@@ -860,15 +860,7 @@ vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
 vendor/lib64/libwfdhdcpcp.so|1a3384745b7ec87cda5ff58a43872b1374f6fc9b
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so|5be9cd005e79619fbbc0c4bad97a388655eda945
 
-# WFD Dependency - from LA.UM.9.6.2.r1-03600-89xx.0
-vendor/lib/libdisplayconfig.qti.so|af86c698dbf1c9b4cdca8cda27550210eb559b3a
-vendor/lib/vendor.display.config@2.0.so|c4320cbe4dfb16dc246af37914deec2381ff7561
-vendor/lib64/libdisplayconfig.qti.so|d5e01a88d524f14dd498b6fc2546130c54841fbb
-vendor/lib64/vendor.display.config@2.0.so|bf4cd1afb96d6f6a7c088e1ddbd40d189754646a
-
-# Common Camera - jasmine-user-10-QKQ1.190910.002-V11.0.20.0.QDIMIXM
-vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
-vendor/lib/libllvd_smore.so|740de4c339772df80858ddd9390f91ead71eadeb
+# Common Camera - jasmine-user-10-QKQ1.190910.002-V11.0.20.0
 vendor/lib/libmmcamera_chromaflash_lib.so|2ac15c08e7916b039b9d053a2d5c6846ed28ae41
 vendor/lib/libmmcamera_llvd.so|6fca05767e27b9a5f0050fc9296069c09e9f5dba
 vendor/lib/libmmcamera_optizoom_lib.so|0d54dcba2f86236b66384aa83861693451ee0451
