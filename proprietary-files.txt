@@ -517,9 +517,9 @@ vendor/etc/init/init.qdmastats.rc|837b16bf9600715345fc65d5d6c98ce97f2d4583
 vendor/lib/libqcc_file_agent.so|088b958bfa5c6ef5d3e96b6d2405194e5af2c4ff
 vendor/lib/libqdma_file_agent.so|24fcbd4dca4d036ebeab4a4e1090b51bd4f1ce77
 vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so|cbf8c380f74d18def7f9dbe466ac213270d3ba7e
-vendor/lib64/libqcc_file_agent.so|247012207abb3fb711bca9f41c78409e761457b3
+vendor/lib64/libqcc_file_agent.so|3975917c7f591f2748d5ef89bd8ec13605f38945
 vendor/lib64/libqdma_file_agent.so|80c6afee744cb147f30a2b971fff1638a7c0c4e2
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|f72dfc79135a45fc2f76336ea975f63192906927
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|19a1f7ffb8118c207aa8cb2318996605771c339a
 
 # QMI - from LA.UM.8.2.r1-07400-sdm660.0
 etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
@@ -557,10 +557,6 @@ vendor/lib64/libqmi_csi.so|ffb588ad44863278814f856e030fa25b293ed125
 vendor/lib64/libqmi_encdec.so|eedf39676bf4447cb2e3f629d1d18dcad846ab85
 vendor/lib64/libqmiservices.so|211b9ed2d358246dc51cba2aaa47bff06930add6
 vendor/lib64/libqsocket.so|40816476d857f2ad07490415f6ff7433517ccef8
-
-# QTI Display - from LA.UM.9.6.2.r1-03300-89xx.0
-vendor/lib/libdisplayconfig.qti.so|af86c698dbf1c9b4cdca8cda27550210eb559b3a
-vendor/lib64/libdisplayconfig.qti.so|d5e01a88d524f14dd498b6fc2546130c54841fbb
 
 # QRTR - from jasmine V11.0.21.0.QDIMIXM
 vendor/bin/qrtr-cfg|f2433cbff23c57f531882a70e33e066f9f02d919
@@ -876,7 +872,9 @@ vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
 vendor/lib64/libwfdhdcpcp.so|1a3384745b7ec87cda5ff58a43872b1374f6fc9b
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so|5be9cd005e79619fbbc0c4bad97a388655eda945
 
-# Common Camera - jasmine-user-10-QKQ1.190910.002-V11.0.20.0
+# Common Camera - jasmine-user-10-QKQ1.190910.002-V11.0.20.0.QDIMIXM
+vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
+vendor/lib/libllvd_smore.so|740de4c339772df80858ddd9390f91ead71eadeb
 vendor/lib/libmmcamera_chromaflash_lib.so|2ac15c08e7916b039b9d053a2d5c6846ed28ae41
 vendor/lib/libmmcamera_llvd.so|6fca05767e27b9a5f0050fc9296069c09e9f5dba
 vendor/lib/libmmcamera_optizoom_lib.so|0d54dcba2f86236b66384aa83861693451ee0451
